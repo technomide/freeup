@@ -1,0 +1,56 @@
+@import url("./style.css");
+
+/*
+==================
+Global Style
+==================
+*/
+html,
+body{
+	font-size: 8.8px;
+}
+/*
+===================
+Container
+===================
+*/
+.container{
+	width: 330px;
+	margin: auto;
+}
+.secondary-container{
+	width: 100%;
+	margin: auto;
+}
+/*
+==================
+Showcase
+==================
+*/
+#showcase #showcase-main #img-main > :nth-child(2) > :nth-child(1) h1 {
+    padding-bottom: 1em;
+    font-size: 1.2rem;
+}
+#showcase #showcase-main #img-main > :nth-child(2) > :nth-child(1) p{
+    font-size: 0.8rem;
+}
+#showcase #showcase-main #img-main > :nth-child(2) > :nth-child(1) a{
+	font-size: 0.8rem;
+}
+#showcase #showcase-main > :nth-child(2) > :nth-child(1) img {
+    width: 5rem;
+}
+#showcase #showcase-main > :nth-child(2) > :nth-child(1) > :nth-child(2){
+	width: 3rem;
+}
+/*
+==================
+Content Section
+==================
+*/
+#firtsCntMain .h1 {
+    padding-bottom: 2em;
+}
+#firtsCntMain p {
+	padding: 0px;
+}
